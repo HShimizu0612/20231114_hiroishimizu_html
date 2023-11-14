@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20231114_shimizu</title>
+</head>
+
+<body>
+    <h1 id="home">株式会社TECH</h1>
+    <ul>
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#">企業情報</a></li>
+        <li><a href="#overview">会社概要</a></li>
+        <li><a href="#">よくある質問</a></li>
+        <li><a href="#inquiry">お問い合わせ</a></li>
+    </ul>
+    <img src="./mv.png" alt="">
+    <p>最新のテクノロジーで<em>社会課題</em>を解決</p>
+    <div id="overview">
+        <h2>会社概要</h2>
+        <table border="1">
+            <tr>
+                <th>会社名</th>
+                <td>株式会社TECH</td>
+            </tr>
+            <tr>
+                <th>代表者</th>
+                <td>山田 太郎</td>
+            </tr>
+            <tr>
+                <th>所在地</th>
+                <td>東京都渋谷区神宮前</td>
+            </tr>
+            <tr>
+                <th>設立</th>
+                <td>2019/07/17</td>
+            </tr>
+            <tr>
+                <th>従業員数</th>
+                <td>100人</td>
+            </tr>
+            <tr>
+                <th>資本金</th>
+                <td>1000万円</td>
+            </tr>
+        </table>
+    </div>
+    <div id="inquiry">
+        <h2>お問い合わせ</h2>
+        <form action="送信先" method="post">
+            <label for="conpany">会社名</label>
+            <input type="text" name="company" id="conpany">
+            <br />
+            <label for="name">お名前</label>
+            <input type="text" name="name" id="name">
+            <br />
+            <label for="email">メールアドレス</label>
+            <input type="email" name="email" id="email">
+            <br />
+            <label for="content">お問い合わせ内容</label>
+            <textarea name="content" id="content" cols="100" rows="10"></textarea>
+            <br />
+            <input type="submit" name="application" value="お申込み">
+        </form>
+    </div>
+    <footer>&copy; 2020 TECH inc.</footer>
+</body>
+
+</html>
